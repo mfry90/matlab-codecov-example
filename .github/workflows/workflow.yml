@@ -10,10 +10,13 @@ jobs:
 #        with:
 #          source-folder: source
 #          code-coverage-cobertura: coverage.xml
+#      - uses: matlab-actions/run-command@v0
+#        with:
+#	  command: disp('hello world')
+#	  source-folder: source
+#      - uses: codecov/codecov-action@v1
+#        with:
+#          file: coverage.xml
       - uses: matlab-actions/run-command@v0
         with:
-	  command: disp('hello world')
-#	  source-folder: source
-      - uses: codecov/codecov-action@v1
-        with:
-          file: coverage.xml
+          command: addpath(genpath(pwd));warning off; 

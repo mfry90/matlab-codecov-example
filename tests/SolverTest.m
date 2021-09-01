@@ -15,5 +15,8 @@ classdef SolverTest < matlab.unittest.TestCase
             testCase.verifyError(@()quadraticSolver(1,'-3',2), ...
                 'quadraticSolver:InputMustBeNumeric')
         end
+	function willFaile(testCase)
+	    verifyTrue(testCase, false)
+	end
     end
 end

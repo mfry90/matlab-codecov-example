@@ -92,5 +92,5 @@ after_success: bash <(curl -s https://codecov.io/bash)
 - [Documentation](https://docs.codecov.io)
 - [Continuous Integration with MATLAB and Simulink](https://www.mathworks.com/solutions/continuous-integration.html)
 
-## Contact Us 
+## Contact Us
 If you have any questions or suggestions, please contact MathWorks&reg; at [continuous-integration@mathworks.com](mailto:continuous-integration@mathworks.com).

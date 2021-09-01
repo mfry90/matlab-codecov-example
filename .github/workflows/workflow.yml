@@ -20,6 +20,8 @@ jobs:
       - uses: matlab-actions/run-command@v0
         with:
           command: runMyTests
+          source-folder: source
+          code-coverage-cobertura: coverage.xml
       - uses: codecov/codecov-action@v1
         with:
           file: coverage.xml

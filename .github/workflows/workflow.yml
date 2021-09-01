@@ -22,4 +22,4 @@ jobs:
           command: runMyTests
       - uses: codecov/codecov-action@v1
         with:
-	  file: coverage.xml
+          file: coverage.xml

@@ -10,7 +10,7 @@ jobs:
 #        with:
 #          source-folder: source
 #          code-coverage-cobertura: coverage.xml
-      - uses: matlab-actions/run-command@v1
+      - uses: matlab-actions/run-command@v0
         with:
 	  command: disp('hello world')
 #	  source-folder: source

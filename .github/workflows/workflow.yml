@@ -12,7 +12,7 @@ jobs:
 #          code-coverage-cobertura: coverage.xml
       - uses: matlab-actions/run-command@v1
         with:
-	  command: runMyTests
+	  command: disp('hello world')
 #	  source-folder: source
       - uses: codecov/codecov-action@v1
         with:
